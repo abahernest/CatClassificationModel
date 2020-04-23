@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+matplotlib = "*"
+h5py = "*"
+Pillow = "*"
+seaborn = "*"
+imageio = "*"
+scipy = "==1.1.0"
+scikit-image = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
